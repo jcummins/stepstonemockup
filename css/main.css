@@ -1,0 +1,94 @@
+
+@font-face {
+  font-family: 'amaticbold';
+  src: url('../fonts/amatic-bold-webfont.eot');
+  src: url('../fonts/amatic-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/amatic-bold-webfont.woff') format('woff'),
+       url('../fonts/amatic-bold-webfont.ttf') format('truetype'),
+       url('../fonts/amatic-bold-webfont.svg#amaticbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    padding-bottom: 20px;
+    font-family: Verdana, serif;
+}
+
+#logo {
+  background-color: #e1ddba;
+  height: 189px;
+  padding-top: 5px;
+  margin-bottom:0px;
+}
+
+#nav-topcolors {
+  height:6px;
+  background: url('../img/nav-topcolors.gif');
+}
+
+#nav-topshadow {
+  height:11px;
+  background: url('../img/nav-topshadow.jpg') no-repeat center center;
+}
+
+#nav-items {
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  width:600px;
+}
+
+#nav-items, #nav-items a, #nav-items a:active, #nav-items a:hover, #nav-items a:visited {
+  font-size: 17px;
+  color: #7d94a7;
+  text-transform: uppercase;
+  background: #fff;
+  letter-spacing: 1px;
+  padding-top:3px;
+  padding-bottom:3px;
+}
+
+
+#nav-bottomshadow {
+  height:11px;
+  background: url('../img/nav-bottomshadow.jpg') no-repeat center center;
+}
+
+#content h1 {
+  font-family: 'amaticbold', Arial, sans-serif;
+  text-transform: uppercase;
+  color: #f79e1c;
+  font-size: 76px;
+  letter-spacing: 4px;
+  margin-left:15px;
+}
+
+#content p {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  letter-spacing:1px;
+  line-height: 19px;
+}
+
+#sidebar {
+  border-left: 2px solid #738997;
+  padding-left: 25px;
+  padding-right:10px;
+}
+
+#sidebar h2 {
+  font-family: Verdana, sans-serif;
+  color: #768998;
+  font-weight:bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#sidebar p {
+  font-family: Verdana, sans-serif;
+  font-size: 17px;
+  letter-spacing:1px;
+  line-height: 19px;
+}
