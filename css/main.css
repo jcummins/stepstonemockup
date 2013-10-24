@@ -17,9 +17,14 @@ body {
 
 #logo {
   background-color: #e1ddba;
-  height: 189px;
+  height: auto;
   padding-top: 5px;
   margin-bottom:0px;
+}
+
+#logo img {
+    max-width: 100%;
+    height: auto;
 }
 
 #nav-topcolors {
@@ -36,7 +41,7 @@ body {
   text-align: center;
   margin-left:auto;
   margin-right:auto;
-  width:600px;
+  max-width:600px;
 }
 
 #nav-items, #nav-items a, #nav-items a:active, #nav-items a:hover, #nav-items a:visited {
